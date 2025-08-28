@@ -47,7 +47,7 @@ const HomePage = ({ onClick }) => {
       <Services />
       <Skills />
       <Projects />
-      <Discuss />/
+      <Discuss />
       <Contact />
       <Footer />
     </div>

@@ -4,10 +4,10 @@ const ServicesCard = ({ icon, title, desc }) => {
   return (
     <div className="card w-full bg-white h-72 dark:bg-slate-200 rounded-lg text-center py-10 px-2 hover:border-2 hover:border-blue hover:border-solid hover:scale-110">
       <div className="flex justify-center items-center ">
-        <div className="w-20 h-20 flex justify-center items-center">{icon}</div>
+        <div className="w-20 h-20 flex justify-center items-center max-[400px]:w-16 max-[400px]:h-16">{icon}</div>
       </div>
       <h2 className="text-blacky text-lg">{title}</h2>
-      <p className="text-mygray pt-3 text-[15px]">{desc} </p>
+      <p className="text-mygray pt-3 text-[15px] max-[400px]:text-[14px]">{desc} </p>
     </div>
   );
 };

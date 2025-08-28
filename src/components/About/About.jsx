@@ -131,7 +131,10 @@ const About = () => {
           </p>
 
           <div className="buttons pt-5 flex gap-3 max-sm:pb-10">
-            <Button contentButton={"My Projects"} href={"#Projects"} />
+            <Button
+              contentButton={"My Projects"}
+              href={"#Projects"}
+            />
             <a
               id="download-button"
               href="https://drive.google.com/file/d/1AaxiOIMSqv2_0aop1VzKC9tpEiX6Y2QM/view?usp=drive_link"
