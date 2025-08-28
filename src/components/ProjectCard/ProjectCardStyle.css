@@ -1,0 +1,30 @@
+.over {
+  z-index: 20;
+  /* position: relative; */
+}
+
+.over .view-more {
+  display: inline-block;
+  z-index: 50;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.over:hover {
+  background-color: rgba(145, 152, 178, 0.7);
+  z-index: 20;
+  transition: all 0.8s ease;
+}
+
+.over:hover .view-more {
+  /* display: inline-block !important; */
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease-out;
+}
+
+.over:hover .view-more:hover {
+  box-shadow: 3px 3px 5px #0f52ba;
+}

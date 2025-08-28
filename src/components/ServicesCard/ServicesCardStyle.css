@@ -1,0 +1,9 @@
+.card svg,
+.services .cards .card i {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: #007fff;
+}
+.services .cards .card:hover {
+  transition: all 0.7s ease;
+}

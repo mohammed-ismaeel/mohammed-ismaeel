@@ -1,0 +1,20 @@
+.contact-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-card .label {
+  /* color: #4b4b50; */
+  /* padding-bottom: 5px; */
+}
+
+.contact-card .vs {
+  /* color: #132238; */
+}
+
+.contact-card img {
+  background-color: #0f52ba;
+  padding: 15px;
+  border-radius: 10px;
+}

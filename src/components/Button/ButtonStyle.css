@@ -1,0 +1,7 @@
+.button a {
+  text-decoration: none;
+}
+
+.button:hover a {
+  color: #007fff;
+}

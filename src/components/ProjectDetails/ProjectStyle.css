@@ -1,0 +1,14 @@
+.project-image {
+  width: 50%;
+  height: 100%;
+}
+
+.overlay {
+    background-color: rgba(85, 96, 112, 0.3); 
+}
+
+.project-image:hover .overlay {
+  top: 0;
+  transition: all 1.3s ease;
+  visibility: visible;
+}
