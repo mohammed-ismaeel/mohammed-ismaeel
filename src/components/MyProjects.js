@@ -54,29 +54,9 @@ const MyProjects = [
       "../project-1-3.png",
     ],
   },
-  {
-    id: 4,
-    urlimage: "../project-2.png",
-    typeProject: "website",
-    title: "K2skiing",
-    date: "03/01/2025",
-    desc: "K2skiing is a dynamic and visually engaging website designed for ski enthusiasts. It showcases the best ski destinations, gear reviews, and tips for beginners. The platform is optimized for both beginners and experienced skiers, providing an immersive experience.",
-    basicLanguages: "HTML-CSS",
-    frameworks: "",
-    libraries: "",
-    tools: "HTML-CSS",
-    demo: "",
-    github: "",
-    gallery: [
-      "../project-2.png",
-      "../project-2-1.png",
-      "../project-2-2.png",
-      "../project-2-3.png",
-    ],
-  },
 
   {
-    id: 5,
+    id: 4,
     urlimage: "../project-4.png",
     typeProject: "website",
     title: "Furniture",
@@ -91,7 +71,7 @@ const MyProjects = [
     gallery: ["../project-4.png"],
   },
   {
-    id: 6,
+    id: 5,
     urlimage: "../project-5.png",
     typeProject: "website",
     title: "Organick",
@@ -113,7 +93,7 @@ const MyProjects = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     urlimage: "../project-6.png",
     typeProject: "website",
     title: "Travel Agency",
